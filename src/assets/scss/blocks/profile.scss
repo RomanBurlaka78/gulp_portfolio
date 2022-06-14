@@ -1,0 +1,33 @@
+.profile_avatar {
+    display: block;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: -4rem auto 2rem  ;
+    border: 2px solid white;
+    box-shadow: 0 7px 20 rgba($color: #000000, $alpha: .25);
+    border-radius: 50%;
+}
+.profile_name {
+    font-size: 1.8rem;
+    text-align: center;
+
+}
+.profile_prof {
+
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #dedede;
+    text-align: center;
+
+}
+.profile_text {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-top: 1px solid #1c1c1c;
+}
+.sidebar_content {
+    padding: 0 2rem;
+}

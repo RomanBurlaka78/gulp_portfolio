@@ -1,0 +1,45 @@
+.header {
+    position: absolute;
+    width: calc(80%);
+    color: white;
+    margin-top: 0;
+    height: 30px;
+    background-color: #444;
+    top: 0;
+    left: 20%;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+   
+    // z-index: $z-index-header;
+  
+}
+.header_left {
+    width: 60%;
+}
+
+.header_right {
+    width: 40%;
+}
+.nav-list {
+    display: flex;
+}
+.nav-link {
+    display: block;
+    text-transform: uppercase;
+    color: white;  
+    margin-left: 20px;  
+}
+.nav-link a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+    vertical-align: middle;
+}
+
+.nav-link a:hover{
+   
+    color: black;
+  
+}
