@@ -1,15 +1,17 @@
 .header {
-    position: absolute;
+    // display: flex;
+    position: relative;
     width: calc(80%);
     color: white;
     margin-top: 0;
     height: 30px;
-    background-color: #444;
+   
     top: 0;
     left: 20%;
     padding-top: 0;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1rem;
    
     // z-index: $z-index-header;
   
@@ -20,26 +22,37 @@
 
 .header_right {
     width: 40%;
+    display: flex;
 }
 .nav-list {
     display: flex;
 }
-.nav-link {
-    display: block;
-    text-transform: uppercase;
-    color: white;  
-    margin-left: 20px;  
-}
-.nav-link a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    margin: 8px;
-    vertical-align: middle;
+#search {
+   
+    max-width: 21rem;
+    background: transparent;
+   
+   
+   
+    margin-top: 1.7rem;
+   
+    padding: 0.2rem;
 }
 
-.nav-link a:hover{
-   
-    color: black;
-  
+#search-input {
+    background-color: $primary;
+    border: none;
+    font-family: inherit;
+    font-size: 1.2rem; 
+    color:white;
+    padding: .1rem;
+
+    &::placeholder{
+        color: rgba($color: white, $alpha: .4);
+        padding: 20px;
+
+
+    }
+
+
 }

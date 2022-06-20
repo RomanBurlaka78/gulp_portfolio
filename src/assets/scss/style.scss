@@ -16,6 +16,7 @@ body {
 /*Blocks*/
 @import "blocks/page";
 @import "blocks/header";
+@import "blocks/nav";
 @import "blocks/sidebar";
 @import "blocks/main.scss";
 @import "blocks/container.scss";
@@ -23,3 +24,4 @@ body {
 @import "blocks/profile";
 @import "blocks/social";
 @import "blocks/btn";
+@import "blocks/stories";
